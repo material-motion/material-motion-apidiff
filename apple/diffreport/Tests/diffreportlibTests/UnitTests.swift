@@ -20,6 +20,14 @@ import XCTest
 // These tests require sourcekitten to be installed as a command line tool.
 // brew install sourcekitten
 class UnitTests: XCTestCase {
+  
+  static var allTests = [
+    ("testNoChanges", testNoChanges),
+    ("testAddition", testAddition),
+    ("testDeletion", testDeletion),
+    ("testModification", testModification),
+  ]
+  
   func testNoChanges() throws {
     let report = try generateReport(forOld: "@interface TestObject\n@end", new: "@interface TestObject\n@end")
     XCTAssertEqual(report.count, 0)
