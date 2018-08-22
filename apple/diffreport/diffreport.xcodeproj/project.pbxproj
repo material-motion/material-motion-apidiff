@@ -9,11 +9,11 @@
 /* Begin PBXAggregateTarget section */
 		"diffreport::diffreportPackageTests::ProductTarget" /* diffreportPackageTests */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = OBJ_37 /* Build configuration list for PBXAggregateTarget "diffreportPackageTests" */;
+			buildConfigurationList = OBJ_53 /* Build configuration list for PBXAggregateTarget "diffreportPackageTests" */;
 			buildPhases = (
 			);
 			dependencies = (
-				OBJ_40 /* PBXTargetDependency */,
+				OBJ_56 /* PBXTargetDependency */,
 			);
 			name = diffreportPackageTests;
 			productName = diffreportPackageTests;
@@ -21,36 +21,36 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		OBJ_25 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* main.swift */; };
-		OBJ_27 /* diffreportlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "diffreport::diffreportlib::Product" /* diffreportlib.framework */; };
-		OBJ_35 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
-		OBJ_46 /* diffreport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* diffreport.swift */; };
-		OBJ_52 /* UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* UnitTests.swift */; };
-		OBJ_53 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* XCTestManifests.swift */; };
-		OBJ_55 /* diffreportlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "diffreport::diffreportlib::Product" /* diffreportlib.framework */; };
+		OBJ_25 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_31 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* main.swift */; };
+		OBJ_33 /* diffreportlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "diffreport::diffreportlib::Product" /* diffreportlib.framework */; };
+		OBJ_41 /* UnitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_14 /* UnitTests.swift */; };
+		OBJ_42 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_15 /* XCTestManifests.swift */; };
+		OBJ_44 /* diffreportlib.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "diffreport::diffreportlib::Product" /* diffreportlib.framework */; };
+		OBJ_50 /* diffreport.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* diffreport.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6679E7D3212CB3CC00FD65CC /* PBXContainerItemProxy */ = {
+		66354EE1212DE00400DD4416 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "diffreport::diffreportlib";
 			remoteInfo = diffreportlib;
 		};
-		6679E7D4212CB3CD00FD65CC /* PBXContainerItemProxy */ = {
+		66354EE2212DE00500DD4416 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "diffreport::diffreportlib";
+			remoteInfo = diffreportlib;
+		};
+		66354EE3212DE00500DD4416 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = "diffreport::diffreportlibTests";
 			remoteInfo = diffreportlibTests;
-		};
-		6679E7D5212CB3CD00FD65CC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = OBJ_1 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = "diffreport::diffreportlib";
-			remoteInfo = diffreportlib;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -66,26 +66,26 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		OBJ_26 /* Frameworks */ = {
+		OBJ_32 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_27 /* diffreportlib.framework in Frameworks */,
+				OBJ_33 /* diffreportlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_47 /* Frameworks */ = {
+		OBJ_43 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
+				OBJ_44 /* diffreportlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_54 /* Frameworks */ = {
+		OBJ_51 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_55 /* diffreportlib.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,8 +122,8 @@
 		OBJ_16 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				"diffreport::diffreportlibTests::Product" /* diffreportlibTests.xctest */,
 				"diffreport::diffreport::Product" /* diffreport */,
+				"diffreport::diffreportlibTests::Product" /* diffreportlibTests.xctest */,
 				"diffreport::diffreportlib::Product" /* diffreportlib.framework */,
 			);
 			name = Products;
@@ -163,9 +163,9 @@
 /* Begin PBXNativeTarget section */
 		"diffreport::SwiftPMPackageDescription" /* diffreportPackageDescription */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_31 /* Build configuration list for PBXNativeTarget "diffreportPackageDescription" */;
+			buildConfigurationList = OBJ_21 /* Build configuration list for PBXNativeTarget "diffreportPackageDescription" */;
 			buildPhases = (
-				OBJ_34 /* Sources */,
+				OBJ_24 /* Sources */,
 			);
 			buildRules = (
 			);
@@ -177,15 +177,15 @@
 		};
 		"diffreport::diffreport" /* diffreport */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_21 /* Build configuration list for PBXNativeTarget "diffreport" */;
+			buildConfigurationList = OBJ_27 /* Build configuration list for PBXNativeTarget "diffreport" */;
 			buildPhases = (
-				OBJ_24 /* Sources */,
-				OBJ_26 /* Frameworks */,
+				OBJ_30 /* Sources */,
+				OBJ_32 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_28 /* PBXTargetDependency */,
+				OBJ_34 /* PBXTargetDependency */,
 			);
 			name = diffreport;
 			productName = diffreport;
@@ -194,10 +194,10 @@
 		};
 		"diffreport::diffreportlib" /* diffreportlib */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_42 /* Build configuration list for PBXNativeTarget "diffreportlib" */;
+			buildConfigurationList = OBJ_46 /* Build configuration list for PBXNativeTarget "diffreportlib" */;
 			buildPhases = (
-				OBJ_45 /* Sources */,
-				OBJ_47 /* Frameworks */,
+				OBJ_49 /* Sources */,
+				OBJ_51 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -210,15 +210,15 @@
 		};
 		"diffreport::diffreportlibTests" /* diffreportlibTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = OBJ_48 /* Build configuration list for PBXNativeTarget "diffreportlibTests" */;
+			buildConfigurationList = OBJ_37 /* Build configuration list for PBXNativeTarget "diffreportlibTests" */;
 			buildPhases = (
-				OBJ_51 /* Sources */,
-				OBJ_54 /* Frameworks */,
+				OBJ_40 /* Sources */,
+				OBJ_43 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				OBJ_56 /* PBXTargetDependency */,
+				OBJ_45 /* PBXTargetDependency */,
 			);
 			name = diffreportlibTests;
 			productName = diffreportlibTests;
@@ -245,11 +245,11 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				"diffreport::diffreport" /* diffreport */,
 				"diffreport::SwiftPMPackageDescription" /* diffreportPackageDescription */,
-				"diffreport::diffreportPackageTests::ProductTarget" /* diffreportPackageTests */,
-				"diffreport::diffreportlib" /* diffreportlib */,
+				"diffreport::diffreport" /* diffreport */,
 				"diffreport::diffreportlibTests" /* diffreportlibTests */,
+				"diffreport::diffreportlib" /* diffreportlib */,
+				"diffreport::diffreportPackageTests::ProductTarget" /* diffreportPackageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -259,52 +259,52 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_25 /* main.swift in Sources */,
+				OBJ_25 /* Package.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_34 /* Sources */ = {
+		OBJ_30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_35 /* Package.swift in Sources */,
+				OBJ_31 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_45 /* Sources */ = {
+		OBJ_40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_46 /* diffreport.swift in Sources */,
+				OBJ_41 /* UnitTests.swift in Sources */,
+				OBJ_42 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		OBJ_51 /* Sources */ = {
+		OBJ_49 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 0;
 			files = (
-				OBJ_52 /* UnitTests.swift in Sources */,
-				OBJ_53 /* XCTestManifests.swift in Sources */,
+				OBJ_50 /* diffreport.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		OBJ_28 /* PBXTargetDependency */ = {
+		OBJ_34 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = "diffreport::diffreportlib" /* diffreportlib */;
-			targetProxy = 6679E7D3212CB3CC00FD65CC /* PBXContainerItemProxy */;
+			targetProxy = 66354EE2212DE00500DD4416 /* PBXContainerItemProxy */;
 		};
-		OBJ_40 /* PBXTargetDependency */ = {
+		OBJ_45 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "diffreport::diffreportlibTests" /* diffreportlibTests */;
-			targetProxy = 6679E7D4212CB3CD00FD65CC /* PBXContainerItemProxy */;
+			target = "diffreport::diffreportlib" /* diffreportlib */;
+			targetProxy = 66354EE1212DE00400DD4416 /* PBXContainerItemProxy */;
 		};
 		OBJ_56 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = "diffreport::diffreportlib" /* diffreportlib */;
-			targetProxy = 6679E7D5212CB3CD00FD65CC /* PBXContainerItemProxy */;
+			target = "diffreport::diffreportlibTests" /* diffreportlibTests */;
+			targetProxy = 66354EE3212DE00500DD4416 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -312,25 +312,22 @@
 		OBJ_22 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = diffreport.xcodeproj/diffreport_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
-				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
-				TARGET_NAME = diffreport;
 			};
 			name = Debug;
 		};
 		OBJ_23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_28 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
@@ -339,11 +336,28 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = diffreport.xcodeproj/diffreport_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
-				OTHER_CFLAGS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
+				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
+				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = diffreport;
+			};
+			name = Debug;
+		};
+		OBJ_29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = diffreport.xcodeproj/diffreport_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx @executable_path";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
 				SWIFT_FORCE_DYNAMIC_LINK_STDLIB = YES;
 				SWIFT_FORCE_STATIC_LINK_STDLIB = NO;
 				SWIFT_VERSION = 4.0;
@@ -361,49 +375,51 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_SWIFT_FLAGS = "-DXcode";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "SWIFT_PACKAGE DEBUG";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		OBJ_32 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Debug;
-		};
-		OBJ_33 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				LD = /usr/bin/true;
-				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode-beta.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.14.sdk";
-				SWIFT_VERSION = 4.0;
-			};
-			name = Release;
-		};
 		OBJ_38 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = diffreport.xcodeproj/diffreportlibTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = diffreportlibTests;
 			};
 			name = Debug;
 		};
 		OBJ_39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = diffreport.xcodeproj/diffreportlibTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = diffreportlibTests;
 			};
 			name = Release;
 		};
@@ -427,7 +443,7 @@
 			};
 			name = Release;
 		};
-		OBJ_43 /* Debug */ = {
+		OBJ_47 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -437,21 +453,19 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = diffreport.xcodeproj/diffreportlib_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = diffreportlib;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = diffreportlib;
 			};
 			name = Debug;
 		};
-		OBJ_44 /* Release */ = {
+		OBJ_48 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ENABLE_TESTABILITY = YES;
@@ -461,59 +475,27 @@
 				);
 				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = diffreport.xcodeproj/diffreportlib_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
-				OTHER_CFLAGS = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
 				OTHER_LDFLAGS = "$(inherited)";
 				OTHER_SWIFT_FLAGS = "$(inherited)";
 				PRODUCT_BUNDLE_IDENTIFIER = diffreportlib;
 				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
 				SWIFT_VERSION = 4.0;
 				TARGET_NAME = diffreportlib;
 			};
 			name = Release;
 		};
-		OBJ_49 /* Debug */ = {
+		OBJ_54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = diffreport.xcodeproj/diffreportlibTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = diffreportlibTests;
 			};
 			name = Debug;
 		};
-		OBJ_50 /* Release */ = {
+		OBJ_55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-				);
-				HEADER_SEARCH_PATHS = "$(inherited)";
-				INFOPLIST_FILE = diffreport.xcodeproj/diffreportlibTests_Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
-				OTHER_CFLAGS = "$(inherited)";
-				OTHER_LDFLAGS = "$(inherited)";
-				OTHER_SWIFT_FLAGS = "$(inherited)";
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited)";
-				SWIFT_VERSION = 4.0;
-				TARGET_NAME = diffreportlibTests;
 			};
 			name = Release;
 		};
@@ -527,52 +509,52 @@
 				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		OBJ_21 /* Build configuration list for PBXNativeTarget "diffreport" */ = {
+		OBJ_21 /* Build configuration list for PBXNativeTarget "diffreportPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_22 /* Debug */,
 				OBJ_23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		OBJ_31 /* Build configuration list for PBXNativeTarget "diffreportPackageDescription" */ = {
+		OBJ_27 /* Build configuration list for PBXNativeTarget "diffreport" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_32 /* Debug */,
-				OBJ_33 /* Release */,
+				OBJ_28 /* Debug */,
+				OBJ_29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		OBJ_37 /* Build configuration list for PBXAggregateTarget "diffreportPackageTests" */ = {
+		OBJ_37 /* Build configuration list for PBXNativeTarget "diffreportlibTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				OBJ_38 /* Debug */,
 				OBJ_39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		OBJ_42 /* Build configuration list for PBXNativeTarget "diffreportlib" */ = {
+		OBJ_46 /* Build configuration list for PBXNativeTarget "diffreportlib" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_43 /* Debug */,
-				OBJ_44 /* Release */,
+				OBJ_47 /* Debug */,
+				OBJ_48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
-		OBJ_48 /* Build configuration list for PBXNativeTarget "diffreportlibTests" */ = {
+		OBJ_53 /* Build configuration list for PBXAggregateTarget "diffreportPackageTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				OBJ_49 /* Debug */,
-				OBJ_50 /* Release */,
+				OBJ_54 /* Debug */,
+				OBJ_55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};
