@@ -7,7 +7,7 @@ before_install:
   - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
 script:
   - set -o pipefail
-  - cd apple
+  - cd apple/diffreport
   - swift package generate-xcodeproj
   - cd ../
   - xcodebuild -workspace "apple/diffreport.xcworkspace" -scheme "diffreportlib" -configuration "Debug" -destination "platform=macOS" -enableCodeCoverage "YES" test | xcpretty
