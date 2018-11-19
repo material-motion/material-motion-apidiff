@@ -4,7 +4,7 @@ sudo: false
 notifications:
   email: false
 before_install:
-  - gem install xcpretty --no-rdoc --no-ri --no-document --quiet
+  - gem install xcpretty sourcekitten --no-rdoc --no-ri --no-document --quiet
 script:
   - set -o pipefail
   - cd apple/diffreport
