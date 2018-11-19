@@ -8,8 +8,6 @@ before_install:
 script:
   - set -o pipefail
   - cd apple/diffreport
-  - swift package generate-xcodeproj
-  - cd ../../
-  - xcodebuild -workspace "apple/diffreport.xcworkspace" -scheme "diffreportlib" -configuration "Debug" -destination "platform=macOS" -enableCodeCoverage "YES" test | xcpretty
+  - swift test
 after_success:
   - bash <(curl -s https://codecov.io/bash)
